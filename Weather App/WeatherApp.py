@@ -22,7 +22,7 @@ def testFunction(entry):
     print('the entry is:', entry)
 
 def get_weather(city):
-    weather_key = '17b60343ad61aaefdf71ede152380c1c'
+    weather_key = 'THIS IS WHERE THE API KEY GOES, BUT I HAD TO HIDE IT ON MY GITHUB :)'
     url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {'APPID': weather_key,'q': city, 'units': 'imperial'}
     response = requests.get(url, params=params)
